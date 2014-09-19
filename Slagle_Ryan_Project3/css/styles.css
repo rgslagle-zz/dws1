@@ -1,0 +1,160 @@
+<!--introducing css to the body-->
+
+body{
+	
+	font-family: 'Open Sans', Verdana, sans-serif;
+	font-size: 14px;
+	background-color: rgb(255,245,238);	
+	width: 960px;
+}
+@font-face{
+font-family: 'Open Sans', sans-serif;
+src: url(http://fonts.googleapis.com);
+}
+
+<!--div css styling-->
+div{
+	
+}
+#top{
+	background-image: url("../images/Course Background.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	padding: 1%;
+	color: #fff;
+}
+
+#content{
+	float: left;
+	width: 30%;
+	margin: 1%;
+	background-image: url("../images/pattern_038.gif");
+	background-repeat: repeat;
+	background-position: center;
+	padding: 1%;
+	color: #00146b;
+}
+#pre{
+	float: left;
+	background-image: url("../images/pattern_038.gif");
+	background-repeat: repeat-x;
+	width: 30%;
+	margin: 1%;	
+	
+	padding: 1%;
+}
+#gallery{
+	float: left;
+	width: 30%;	
+	background-image: url("../images/pattern_077.gif");
+	margin: 1%;
+}
+
+#drive, #chip, #putt, #header{
+	width: 30%;
+	border: 1px solid #665544;
+	border-width: 1px;
+	border-radius: 1px;
+	background-color: rgb(34,139,34);
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	
+}
+
+#swing{
+	width: 50%;
+	border: 1px solid #665544;
+	border-width: 1px;
+	border-radius: 1px;
+	background-color: rgb(34,139,34);
+	padding: 1%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+}
+#reminders{
+	width: 20%;
+	border: 1px solid #665544;
+	border-width: 1px;
+	margin-right: 50%;
+	margin-left: 2%;
+	background-color: black;
+	color: white;
+	box-shadow: 2px 2px #777777;
+}
+#footer{
+	float: left;
+	width: 95%;
+	background-color: gray;
+	clear: both;
+}
+
+<!--change color of links based on acitivity-->
+
+a:link{
+	color: deeppink;
+}
+a:visited{
+	color:#fff;
+}
+a:hover{
+	color:blue;
+}
+
+
+<!--tag and element CSS-->
+
+h1, h3{
+	width: 40%;
+	background-color: #107500;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-size: 250%;
+	
+}
+
+h2{
+	text-shadow: 1px 1px #777777;
+}
+
+p{
+	text-indent: 1%;
+}
+strong{
+	color: green;
+}
+em{
+	color: violet;
+}
+
+#note{
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+ul{
+	font-weight: bold;
+	font-size: 120%;
+	list-style: inside circle;
+	color: #fff;
+}
+li{
+	margin-left: 1%;
+	color: #fff;
+	
+}
+ol{
+	font-style: italic;
+	font-size: 120%;
+	list-style: upper-alpha;
+	color: #fff;
+	
+}
