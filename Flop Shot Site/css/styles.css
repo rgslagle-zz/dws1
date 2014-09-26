@@ -1,4 +1,4 @@
-<!--introducing css to the body-->
+/* introducing css to the body */
 
 body{
 	
@@ -12,7 +12,7 @@ font-family: 'Open Sans', sans-serif;
 src: url(http://fonts.googleapis.com);
 }
 
-<!--div css styling-->
+/* div css styling */
 div{
 	
 }
@@ -94,7 +94,7 @@ div{
 	clear: both;
 }
 
-<!--change color of links based on acitivity-->
+/* change color of links based on activity */
 
 a:link{
 	color: deeppink;
@@ -107,7 +107,7 @@ a:hover{
 }
 
 
-<!--tag and element CSS-->
+/* tag and element CSS */
 
 h1, h3{
 	width: 40%;
@@ -117,8 +117,7 @@ h1, h3{
 	margin-left: auto;
 	text-align: center;
 	font-size: 250%;
-	
-}
+	}
 
 h2{
 	text-shadow: 1px 1px #777777;

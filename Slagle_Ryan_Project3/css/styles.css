@@ -1,27 +1,37 @@
-<!--introducing css to the body-->
+/* introducing css to the body */
 
 body{
 	
 	font-family: 'Open Sans', Verdana, sans-serif;
-	font-size: 14px;
+	src: url(http://fonts.googleapis.com)
+	font-size: 1em;
 	background-color: rgb(255,245,238);	
-	width: 960px;
-}
-@font-face{
-font-family: 'Open Sans', sans-serif;
-src: url(http://fonts.googleapis.com);
-}
-
-<!--div css styling-->
-div{
+	width: 1220px;
+	margin-right: auto;
+	margin-left: auto;
 	
 }
-#top{
+
+/* div css styling */
+
+#header{
 	background-image: url("../images/Course Background.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	padding: 1%;
 	color: #fff;
+	
+}
+#aside{
+	float:right;
+	clear: both;
+	width: 29%;
+	padding: 1%;
+	margin:1%;
+	font-size: 1.25em;
+	color: blue;
+	text-align: justify;
+	
 }
 
 #content{
@@ -40,7 +50,6 @@ div{
 	background-repeat: repeat-x;
 	width: 30%;
 	margin: 1%;	
-	
 	padding: 1%;
 }
 #gallery{
@@ -50,7 +59,7 @@ div{
 	margin: 1%;
 }
 
-#drive, #chip, #putt, #header{
+#drive, #chip, #putt, #heading{
 	width: 30%;
 	border: 1px solid #665544;
 	border-width: 1px;
@@ -59,13 +68,14 @@ div{
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.25em;
 	color: white;
 	
 }
 
-#swing{
-	width: 50%;
+
+#type, #swing, #pics{
+	width: 80%;
 	border: 1px solid #665544;
 	border-width: 1px;
 	border-radius: 1px;
@@ -77,61 +87,33 @@ div{
 	font-size: 2em;
 	color: white;
 }
-#reminders{
-	width: 20%;
-	border: 1px solid #665544;
-	border-width: 1px;
-	margin-right: 50%;
-	margin-left: 2%;
-	background-color: black;
-	color: white;
-	box-shadow: 2px 2px #777777;
-}
 #footer{
 	float: left;
 	width: 95%;
+	margin: 3%
 	background-color: gray;
 	clear: both;
+	text-align: left;
 }
 
-<!--change color of links based on acitivity-->
+/* tag and element CSS */
 
-a:link{
-	color: deeppink;
-}
-a:visited{
-	color:#fff;
-}
-a:hover{
-	color:blue;
-}
-
-
-<!--tag and element CSS-->
-
-h1, h3{
-	width: 40%;
-	background-color: #107500;
-	color: white;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-	font-size: 250%;
-	
-}
-
-h2{
+#posture, #alignment, #grip{
 	text-shadow: 1px 1px #777777;
 }
 
 p{
-	text-indent: 1%;
+	text-align: left;
+	font-weight:bold;
+	font-size: .85em;
 }
 strong{
 	color: green;
 }
 em{
-	color: violet;
+	color: blue;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 #note{
@@ -148,13 +130,71 @@ ul{
 }
 li{
 	margin-left: 1%;
-	color: #fff;
+	color: black;
 	
 }
 ol{
-	font-style: italic;
+	font-style: bold;
 	font-size: 120%;
 	list-style: upper-alpha;
-	color: #fff;
+	color: black;
 	
 }
+/* change color of links based on activity */
+
+a:link{
+	color: red;
+}
+a:visited{
+	color: #1dff1a;
+}
+a:hover{
+	color: deeppink;
+}
+a:active{
+	color: blue;
+}
+
+/* form and table style */
+
+form{
+	width: 30%;
+	float: left;
+	clear:both;
+	padding: 1%;
+	margin: 1%
+	font-size: .85em;
+	color: black;
+	border: 1%;
+	text-align: left;
+	background-color: grey;
+	input: focus;
+	input: hover;
+}
+#survey, #surface, #thoughts{
+	font-size: .65em;
+
+}
+
+
+table{
+	width:30%;
+	float: left;
+	clear: both;
+	margin: 1%;
+}
+th,td{
+	padding: 7px 10px 10px 10px;
+	text-align: left;
+	font-size: 80%;
+	text-transform: uppercase;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+tr.even{
+	background-color: #efefef;
+}
+tr:hover{
+	background-color: #c3e6e5;
+}
+
