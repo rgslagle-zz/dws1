@@ -3,13 +3,18 @@
 body{
 	
 	font-family: 'Open Sans', Verdana, sans-serif;
-	src: url(http://fonts.googleapis.com)
+	
 	font-size: 1em;
 	background-color: rgb(255,245,238);	
 	width: 1220px;
 	margin-right: auto;
 	margin-left: auto;
 	
+}
+
+@font-face{
+	font-family: 'Open Sans';
+	src: url('http://fonts.googleapis.com');
 }
 
 /* div css styling */
@@ -90,7 +95,7 @@ body{
 #footer{
 	float: left;
 	width: 95%;
-	margin: 3%
+	margin: 3%;
 	background-color: gray;
 	clear: both;
 	text-align: left;
@@ -134,7 +139,7 @@ li{
 	
 }
 ol{
-	font-style: bold;
+	font-weight: bold;
 	font-size: 120%;
 	list-style: upper-alpha;
 	color: black;
@@ -162,14 +167,12 @@ form{
 	float: left;
 	clear:both;
 	padding: 1%;
-	margin: 1%
+	margin: 1%;
 	font-size: .85em;
 	color: black;
-	border: 1%;
+	border: 1px;
 	text-align: left;
 	background-color: grey;
-	input: focus;
-	input: hover;
 }
 #survey, #surface, #thoughts{
 	font-size: .65em;
